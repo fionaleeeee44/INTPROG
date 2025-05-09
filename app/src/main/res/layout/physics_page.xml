@@ -1,0 +1,269 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/ru0e1s8ay6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/rfj83hkux3c4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F0E3"
+                android:paddingBottom="121dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/rqvziqizftlh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:paddingBottom="15dp"
+                    android:paddingHorizontal="8dp"
+                    android:layout_marginBottom="13dp"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/r5xr55ars21o"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_back"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:id="@+id/rfb3ihqx42zo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/grey_background"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="55dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/rvgnq85mmqp"
+                        android:textColor="#000000"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="251dp"
+                        android:gravity="center"
+                        android:text="Physics Formula Sheet"
+                        />
+                </LinearLayout>
+
+                <!-- Electromagnetism Section -->
+                <TextView
+                    android:id="@+id/rrgaxir6whpi"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Electromagnetism"
+                    />
+                <LinearLayout
+                    android:id="@+id/r21xyenwobri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/ri6ywfwibeei"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="12dp"
+                        android:orientation="vertical">
+                        <!-- Ohm's Law -->
+                        <TextView
+                            android:id="@+id/r2jvxv31i55k"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Ohm's Law"
+                            />
+                        <TextView
+                            android:id="@+id/ohm_law_formula"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="V = IR"
+                            />
+
+                        <!-- Coulomb's Law -->
+                        <TextView
+                            android:id="@+id/rjsfqzz7iiz"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Coulomb's Law"
+                            />
+                        <TextView
+                            android:id="@+id/coulomb_law_formula"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="F = k(q₁q₂)/r²"
+                            />
+
+                        <LinearLayout
+                            android:id="@+id/rfjxar1x1z3a"
+                            android:layout_width="48dp"
+                            android:layout_height="1dp"
+                            android:background="#000000"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginStart="0dp"
+                            android:orientation="vertical">
+                        </LinearLayout>
+
+                        <!-- Lorentz Force -->
+                        <TextView
+                            android:id="@+id/ri5o45yb1iuk"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Lorentz Force"
+                            />
+                        <TextView
+                            android:id="@+id/lorentz_force_formula"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="F = q(E + vB)"
+                            />
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/rkzkyb4manls"
+                        android:layout_width="159dp"
+                        android:layout_height="159dp"
+                        android:src="@drawable/ic_magnet"
+                        android:scaleType="fitXY"
+                        />
+                </LinearLayout>
+
+                <!-- Thermodynamics Section -->
+                <TextView
+                    android:id="@+id/ro56ev64ro2s"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Thermodynamics"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/thermodynamics_first_law"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginHorizontal="17dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="First Law"
+                            />
+                        <TextView
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="ΔU = Q - W"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Entropy"
+                            />
+                        <TextView
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="ΔS = Q/T"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/heat_transfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginHorizontal="17dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Heat Transfer"
+                        />
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Q = mcΔT"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

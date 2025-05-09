@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2BABA">
+
+    <!-- OTP Verification Form Container -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="24dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fdfefe"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp">
+
+                <!-- Back Button Inside CardView -->
+                <ImageButton
+                    android:id="@+id/btn_back"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_back" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_below="@id/btn_back"
+                    android:paddingTop="16dp">
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OTP VERIFICATION"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    <!-- OTP Icon -->
+                    <ImageView
+                        android:id="@+id/verify_success_icon"
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_otp"
+                        android:visibility="visible"
+                        android:layout_gravity="center" />
+
+                    <!-- OTP Instruction -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter the 6-digit OTP sent to your email"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="italic"
+                        android:gravity="center"/>
+
+                    <!-- OTP Input Fields -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="16dp">
+
+                        <EditText
+                            android:id="@+id/otp_digit_1"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:background="@drawable/otp_box"/>
+
+                        <EditText
+                            android:id="@+id/otp_digit_2"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:background="@drawable/otp_box"
+                            android:layout_marginStart="6dp"/>
+
+                        <EditText
+                            android:id="@+id/otp_digit_3"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:background="@drawable/otp_box"
+                            android:layout_marginStart="6dp"/>
+
+                        <EditText
+                            android:id="@+id/otp_digit_4"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:background="@drawable/otp_box"
+                            android:layout_marginStart="6dp"/>
+
+                        <EditText
+                            android:id="@+id/otp_digit_5"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:background="@drawable/otp_box"
+                            android:layout_marginStart="6dp"/>
+
+                        <EditText
+                            android:id="@+id/otp_digit_6"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:background="@drawable/otp_box"
+                            android:layout_marginStart="6dp"/>
+                    </LinearLayout>
+
+                    <!-- Resend OTP -->
+                    <TextView
+                        android:id="@+id/resend_otp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Resend OTP"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_gravity="center"/>
+
+                    <!-- Verify OTP Button -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_verify_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:padding="12dp"
+                        android:text="Verify OTP"
+                        android:textColor="@android:color/white"
+                        app:backgroundTint="#5BD462"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</RelativeLayout>

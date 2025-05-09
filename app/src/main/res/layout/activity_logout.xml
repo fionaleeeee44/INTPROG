@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F0E3"
+    android:padding="20dp">
+
+    <!-- Title Section with Drawable Image (Centered at the Top) -->
+    <ImageView
+        android:id="@+id/memoratica_title"
+        android:layout_width="328dp"
+        android:layout_height="145dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Memoratica Title"
+        android:scaleType="centerInside"
+        android:src="@drawable/memoratica_title" />
+
+    <!-- Floating Elements Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/memoratica_title"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Confirmation Message -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/albert_sans_extralight"
+            android:gravity="center"
+            android:text="Are you sure you want to log out?"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Log out Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logout_button"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#86A788"
+            android:clickable="true"
+            android:elevation="6dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:minWidth="200dp"
+            android:minHeight="56dp"
+            android:padding="14dp"
+            android:text="LOG OUT"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Cancel Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel_button"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="14dp"
+            android:text="CANCEL"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+    </LinearLayout>
+</RelativeLayout>

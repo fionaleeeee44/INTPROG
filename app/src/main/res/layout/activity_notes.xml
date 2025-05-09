@@ -1,0 +1,437 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/rn22jv61pcta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/rvjt3qilrnlg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F0E3"
+                android:paddingTop="45dp"
+                android:paddingBottom="27dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/rfx2hq26cda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="9dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="126dp"
+                        android:src="@drawable/back"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:id="@+id/rwqsfxewfdrh"
+                        android:textColor="#000000"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="NOTES"/>
+                    <ImageView
+                        android:id="@+id/rt0wr0x7c11"
+                        android:layout_width="44dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/search"
+                        android:scaleType="fitXY"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r7fnif6nm4m8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/r6pfznpubyl5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/rpqcez6mta4q"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/round_outline"
+                            android:paddingVertical="9dp"
+                            android:paddingHorizontal="15dp"
+                            android:layout_marginBottom="21dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/rpbg3gyisxhp"
+                                android:layout_width="40dp"
+                                android:layout_height="29dp"
+                                android:layout_marginEnd="7dp"
+                                android:src="@drawable/add"
+                                android:scaleType="fitXY"/>
+                            <TextView
+                                android:id="@+id/r81y62naa8qr"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginEnd="10dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Share notes with others"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r5h96b4hzs7d"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="12dp"
+                            android:background="@drawable/black_outline"
+                            android:orientation="vertical"
+                            android:paddingVertical="12dp">
+
+                            <TextView
+                                android:id="@+id/r9dlglk7xyop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="18dp"
+                                android:layout_marginBottom="6dp"
+                                android:text="Photosynthesis Basics"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/rjommig7aqp8"
+                                android:layout_width="244dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="17dp"
+                                android:layout_marginBottom="14dp"
+                                android:text="Summary of the light-dependent and light-independent reactions"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+
+                            <LinearLayout
+                                android:id="@+id/rwyidyv2cbdb"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="17dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/rprofile_julia"
+                                    android:layout_width="27dp"
+                                    android:layout_height="27dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/profile" />
+
+                                <TextView
+                                    android:id="@+id/rrymufsa405b"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="162dp"
+                                    android:text="Julia"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/rj3ht37bnbnh"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2hrs ago"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rylziu50n9u"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="12dp"
+                            android:background="@drawable/black_outline"
+                            android:orientation="vertical"
+                            android:paddingVertical="12dp">
+
+                            <TextView
+                                android:id="@+id/rnjs6snvvq0l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginBottom="7dp"
+                                android:text="History of the Renaissance"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/rytf2acyktkt"
+                                android:layout_width="194dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="17dp"
+                                android:text="Key events and figures of the Rennaissance Period"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+
+                            <LinearLayout
+                                android:id="@+id/r9pd1rldtzn6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="17dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/r6vtoiz6bdp6"
+                                    android:layout_width="27dp"
+                                    android:layout_height="27dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/profile" />
+
+                                <TextView
+                                    android:id="@+id/re093t5f9lb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="162dp"
+                                    android:text="Alex"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/rbxbxrsr98pq"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5hrs ago"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rn6czbnqzm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="12dp"
+                            android:background="@drawable/black_outline"
+                            android:orientation="vertical"
+                            android:paddingVertical="12dp">
+
+                            <TextView
+                                android:id="@+id/rfgbu4hy6s0v"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginBottom="7dp"
+                                android:text="Physics Formula Sheet"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/r6bqpvkbg7zs"
+                                android:layout_width="194dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="17dp"
+                                android:text="Important formulas for mechanics, electromagnetism, and thermodynamics"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+
+                            <LinearLayout
+                                android:id="@+id/rjwwzmhirkg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="17dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/r8ykoey045tm"
+                                    android:layout_width="27dp"
+                                    android:layout_height="27dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/profile" />
+
+                                <TextView
+                                    android:id="@+id/rmqlbarlgsz"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="162dp"
+                                    android:text="Daniel"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/rjtwhjo028tg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="6hrs ago"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rzuozc1d3cfh"
+                        android:layout_width="8dp"
+                        android:layout_height="276dp"
+
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="vertical"/>
+                </LinearLayout>
+
+                <!-- Spanish Grammar Tips -->
+                <LinearLayout
+                    android:id="@+id/rqo6tndzw0k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_outline"
+                    android:paddingVertical="8dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginEnd="35dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/r2zpw338ptho"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Spanish Grammar Tips"/>
+                    <TextView
+                        android:id="@+id/ruo204amjz7a"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="234dp"
+                        android:text="Guidelines on verb conjugation and noun-adjective agreement"/>
+                    <LinearLayout
+                        android:id="@+id/rnn684mf5f1r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginHorizontal="17dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/rdoapca9q47b"
+                            android:layout_width="27dp"
+                            android:layout_height="27dp"
+                            android:layout_marginEnd="3dp"
+                            android:src="@drawable/profile"
+                            android:scaleType="fitXY"/>
+                        <TextView
+                            android:id="@+id/rxomp7amjbr"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:layout_marginEnd="162dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Jasmine"/>
+                        <TextView
+                            android:id="@+id/rz04t2ctc2v"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Yesterday"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Algebra Basics -->
+                <LinearLayout
+                    android:id="@+id/r6v86erd0bfu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_outline"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginEnd="35dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/ra5ihs58q15k"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Algebra Basics"/>
+                    <TextView
+                        android:id="@+id/r08n6qa6wr7s"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:layout_marginStart="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="234dp"
+                        android:text="Guidelines on verb conjugation and noun-adjective agreement"/>
+                    <LinearLayout
+                        android:id="@+id/r9zizyj10b9n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginHorizontal="17dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/r3271qxx80ls"
+                            android:layout_width="27dp"
+                            android:layout_height="27dp"
+                            android:layout_marginEnd="3dp"
+                            android:src="@drawable/profile"
+                            android:scaleType="fitXY"/>
+                        <TextView
+                            android:id="@+id/r29zugim5rhm"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:layout_marginEnd="186dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Alex"/>
+                        <TextView
+                            android:id="@+id/rlf1n6kllc6i"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Yesterday"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
