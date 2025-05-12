@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F0E3">
+
+    <!-- Header Background -->
+    <ImageView
+        android:id="@+id/header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/ic_back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="107dp"
+        android:layout_height="115dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_woman" />
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/actor"
+        android:text="Ashley Smith"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Edit Profile Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#86A788"
+        android:padding="12dp"
+        android:text="Edit Profile"
+        android:textColor="@android:color/white" />
+
+    <!-- White Background for Form -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/btn_edit_profile"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_top_white_bg"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="1">
+
+        <!-- Input Fields -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:text="First Name"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/> <!-- Added marginTop -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:text="Last Name"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/> <!-- Added marginTop -->
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/> <!-- Added marginTop -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:text="Username"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/> <!-- Added marginTop -->
+
+            <EditText
+                android:id="@+id/username1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/> <!-- Added marginTop -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/> <!-- Added marginTop -->
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/> <!-- Added marginTop -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:text="Phone Number"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/> <!-- Added marginTop -->
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/> <!-- Added marginTop -->
+
+        </LinearLayout>
+
+        <!-- Save Changes Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save_changes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#86A788"
+            android:text="Save Changes"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</RelativeLayout>
